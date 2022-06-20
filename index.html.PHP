@@ -162,7 +162,7 @@ $json = json_decode($responseData, true);
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<img src="../imagenes/logo-datafast.png" alt"logo">
+			<img src="../imagenes/logo-datafast.png" alt"logoecotec">
 		</div>
 		<div class="col-md-12">
 		<h1>Portal de compras</h1>
