@@ -145,7 +145,7 @@ $json = json_decode($responseData, true);
 
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en" xml:lang="en">
 <head>
 	<title></title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
