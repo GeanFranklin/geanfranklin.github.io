@@ -61,15 +61,15 @@ $_SESSION['merchterm'] = $merchterm;
 
 
 
-function request($items, $total,$iva,$totaTarifa12,$totalBase0,$email, $primer_nombre,$segundo_nombre, $apellido, $cedula, $trx,$ip_address, $finger,$merchterm,
+function request($items, $total,$iva,$totaTarifa12,$totalBase0,$email, $primer_nombre, $segundo_nombre, $apellido, $cedula, $trx,$ip_address, $finger,$merchterm,
 	$telefono, $direccion_cliente, $pais_cliente, $direccion_entrega, $pais_entrega) {
 	$finger = urlencode($finger);
 	$i = 0;
 	$url = "https://test.oppwa.com/v1/checkouts";
-	$iva 			=  str_replace('.', '', $iva); 
-	$totaTarifa12 	=  str_replace('.', '', $totaTarifa12); 
-	$totalBase0 		=  str_replace('.', '', $totalBase0); 
-	$valueIva 		= str_pad($iva, 12, '0', STR_PAD_LEFT);
+	$iva = str_replace('.', '', $iva); 
+	$totaTarifa12 = str_replace('.', '', $totaTarifa12); 
+	$totalBase0 = str_replace('.', '', $totalBase0); 
+	$valueIva = str_pad($iva, 12, '0', STR_PAD_LEFT);
 	$valueTotalIva 	= str_pad($totaTarifa12, 12, '0', STR_PAD_LEFT);
 	$valueTotalBase0= str_pad($totalBase0, 12, '0', STR_PAD_LEFT);	
 	$data = "entityId=".$_SESSION['entityId'].
@@ -155,7 +155,7 @@ $json = json_decode($responseData, true);
 <script type='text/javascript' src="../bootstrap.min.js"></script>
 
 <body class="well">
-<script src="https://test.oppwa.com/v1/paymentWidgets.js?checkoutId=<?php echo $json['id'] ?>"></script>
+<script src="https://test.oppwa.com/v1/paymentWidgets.js?checkoutId=<?php echo $json['id'] ?>"</script>
 
 
 <div class="container">
