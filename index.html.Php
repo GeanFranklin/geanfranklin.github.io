@@ -31,14 +31,8 @@ if (filesize($nombre_fichero) == 0){
 $merchantId=$mid;//Homologación 7100040113
 $terminalId=$tid;//BP para OTT
 
-/*
-$merchantId="5000004001";//SUPERMAXI
-$terminalId="L0100402";
 
-*/
 
-/*$merchantId="1000000505";
-$terminalId="PD100406";*/
 
 
 
