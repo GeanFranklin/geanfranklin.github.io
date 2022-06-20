@@ -33,8 +33,7 @@ $terminalId=$tid;//BP para OTT
 
 
 
-/*$merchantId="1000000505";
-$terminalId="PD100406";*/
+
 
 
 
@@ -53,11 +52,6 @@ $_SESSION['merchterm'] = $merchterm;
 	$_SESSION['entityId'] = "8a8294175f113aad015f11652f2200a5";
 	$_SESSION['autorizador'] =  "OGE4Mjk0MTg1YTY1YmY1ZTAxNWE2YzhjNzI4YzBkOTV8YmZxR3F3UTMyWA==";
 //}
-
-//$_SESSION['entityId']=$entity;
-//$_SESSION['autorizador']=$token;
-/*$_SESSION['userId']="8a8294185a65bf5e015a6c8b2f690d8b";
-$_SESSION['password']="RkjpyNNE8s";*/
 
 
 
